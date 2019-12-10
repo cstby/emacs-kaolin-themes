@@ -6,29 +6,42 @@
 
 (define-kaolin-theme eclipse "Dark purple Kaolin theme variant."
   ;; Palette modification
-  ((bg1  magenta5 black1)
-   (bg2       "#261a26" black2)
-   (bg3       "#312231" black3)
-   (bg4       "#3d2a3d" black4)
+  (
+   ;; (bg1  magenta5 black1)
+   ;; Dark
+   ;; (bg1 "#1E171E")
+   (bg2 "#261a26" black2)
+   (bg3 "#312231" black3)
+   (bg4 "#3d2a3d" black4)
+
+   ;; Light
+   (bg1 "#281D28")
+   (bg2 "#261A26" black2)
+   (bg3 "#312231" black3)
+   (bg4 "#3d2a3d" black4)
+
+   (fg1 "#F0EBE7")
 
    (azure2 "#325074")
 
-   (keyword     cerise4)
+   ;; (keyword     cerise4)
+   (keyword     purple3)
    (metakey     (if kaolin-themes-distinct-metakeys magenta2 cerise4) comment)
-   (builtin     magenta3)
+   (builtin     violet3)
    (functions   builtin)
    ;; TODO:
-   (var         violet4)
-   (const       violet4)
-   (type        aquamarine4)
-   (num         amber3)
+   (var         ultramarine3)
+   (const       ultramarine3)
+   (type        crimson3)
+   (num         spring-green3)
    (bool        num)
-   (prep        vermilion4)
+   ;; (prep        vermilion4)
+   (prep        teal0)
 
    ;; (comment     gray2)
    (comment     pink6)
    (comment-alt "#663E66")
-   (str         teal4)
+   (str         spring-green3)
    (str-alt     blue4)
    (doc         str-alt)
    (warning     orange3)
