@@ -15,7 +15,7 @@
    (bg4 "#3d2a3d" black4)
 
    ;; Light
-   (bg1 "#281D28")
+   (bg1 "#2B1D2B")
    (bg2 "#261A26" black2)
    (bg3 "#312231" black3)
    (bg4 "#3d2a3d" black4)
@@ -23,25 +23,33 @@
    (fg1 "#F0EBE7")
 
    (azure2 "#325074")
+   (purple3 "#C68EDE")
+   ;; (violet3 "#BA8DF0")
 
    ;; (keyword     cerise4)
    (keyword     purple3)
    (metakey     (if kaolin-themes-distinct-metakeys magenta2 cerise4) comment)
-   (builtin     violet3)
+   (builtin     purple3)
    (functions   builtin)
    ;; TODO:
    (var         ultramarine3)
    (const       ultramarine3)
    (type        crimson3)
-   (num         spring-green3)
+   ;; (num         spring-green3)
+   ;; (num         capri3)
+   (num         cerise3)
    (bool        num)
    ;; (prep        vermilion4)
-   (prep        teal0)
+   ;; (prep        spring-green3)
+   ;; (prep        cerise3)
+   (prep        capri3)
 
    ;; (comment     gray2)
-   (comment     pink6)
+   (comment     purple7)
    (comment-alt "#663E66")
-   (str         spring-green3)
+   ;; (str         spring-green3)
+   ;; (str         capri3)
+   (str         cerise3)
    (str-alt     blue4)
    (doc         str-alt)
    (warning     orange3)
@@ -87,10 +95,8 @@
    (segment-inactive  gray2)
 
    (win-border    bg3)
-   ;; (line-num-fg   magenta2 black4)
-   (line-num-fg   pink6 black4)
-   ;; TOOD: or hl
-   (line-num-hl   magenta3 gray9)
+   (line-num-fg   comment)
+   (line-num-hl   hl gray9)
    (cursor        "#e0c3c8"))
 
   ;; Custom theme set faces
