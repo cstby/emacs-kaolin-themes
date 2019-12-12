@@ -4,25 +4,25 @@
 ;;; Code:
 (require 'kaolin-themes)
 
+(defgroup kaolin-eclipse nil
+  "Kaolin eclipse theme options."
+  :group 'kaolin-themes)
+
+(defcustom kaolin-eclipse-alt-bg nil
+  "Use alternative darker background color."
+  :type 'boolean
+  :group 'kaolin-eclipse)
+
+
 (define-kaolin-theme eclipse "Dark purple Kaolin theme variant."
   ;; Palette modification
   (
-   ;; (bg1  magenta5 black1)
-   ;; Dark
-   ;; (bg1 "#1E171E")
-   (bg2 "#261a26" black2)
-   (bg3 "#312231" black3)
-   (bg4 "#3d2a3d" black4)
-
-   ;; Light
-   (bg1 "#2B1D2B")
-   (bg2 "#261A26" black2)
-   ;; (bg3 "#312231" black3)
-   (bg3 "#2B202B" black3)
-   (bg4 "#3d2a3d" black4)
+   (bg1 (if kaolin-eclipse-alt-bg "#231923" "#2B1D2B") black1)
+   (bg2 (if kaolin-eclipse-alt-bg "#261a26" "#261A26") black2)
+   (bg3 (if kaolin-eclipse-alt-bg "#312231" "#2B202B") black3)
+   (bg4 (if kaolin-eclipse-alt-bg "#3d2a3d" "#3d2a3d") black4)
 
    (fg1 "#F0EBE7")
-   ;; (fg1 "#0fbd8a")
 
    (azure2 "#325074")
    (purple3 "#C68EDE")
