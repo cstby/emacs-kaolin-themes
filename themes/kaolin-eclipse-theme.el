@@ -17,6 +17,7 @@
 (define-kaolin-theme eclipse "Dark purple Kaolin theme variant."
   ;; Palette modification
   (
+   (bg0 (if kaolin-eclipse-alt-bg "#1E151E" "#261926") black0)
    (bg1 (if kaolin-eclipse-alt-bg "#231923" "#2B1D2B") black1)
    (bg2 (if kaolin-eclipse-alt-bg "#261a26" "#261A26") black2)
    (bg3 (if kaolin-eclipse-alt-bg "#312231" "#2B202B") black3)
