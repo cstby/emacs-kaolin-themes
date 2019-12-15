@@ -19,8 +19,8 @@
   (
    (bg0 (if kaolin-eclipse-alt-bg "#1E151E" "#261926") black0)
    (bg1 (if kaolin-eclipse-alt-bg "#231923" "#2B1D2B") black1)
-   (bg2 (if kaolin-eclipse-alt-bg "#261a26" "#261A26") black2)
-   (bg3 (if kaolin-eclipse-alt-bg "#312231" "#2B202B") black3)
+   (bg2 (if kaolin-eclipse-alt-bg "#2B1F2B" "#261A26") black2)
+   (bg3 (if kaolin-eclipse-alt-bg "#332333" "#2B202B") black3)
    (bg4 (if kaolin-eclipse-alt-bg "#3d2a3d" "#3d2a3d") black4)
 
    (fg1 "#F0EBE7")
@@ -109,6 +109,16 @@
 
   ;; Custom theme set faces
   (
+   ;; TODO: rework
+   ;; Magit
+   ;; (magit-item-highlight         (:background bg4))
+   ;; (magit-blame-heading          (:background bg4 :foreground var))
+   ;; (magit-hunk-heading           (:background bg4))
+   ;; (magit-hunk-heading-highlight (:background bg4))
+   ;; (magit-diff-hunk-heading      (:background bg4))
+   ;; (magit-diff-file-heading-highlight (:background bg4 :bold bold))
+
+
    (show-paren-mismatch (:background bg2 :foreground red0))
 
    ;; TODO: change
